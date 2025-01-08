@@ -1,0 +1,3 @@
+# Type 'string' is not assignable to type 'number'
+
+This repository demonstrates a common type error in TypeScript where a string value is assigned to a variable with a number type.  The error occurs because TypeScript's type system enforces type safety, preventing the assignment of incompatible types.  The solution involves ensuring that the values passed to the functions are actually numbers, and handling potential string inputs appropriately. 
